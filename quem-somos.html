@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/slick-slider@1.8.2/slick/slick.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/esteticar-favicon.png" type="image/x-icon">
+    <title>Esteticar</title>
+</head>
+
+<body>
+    <header>
+        <span class="material-symbols-outlined" id="botaoMenu" onclick="exibirMenu()">menu</span>
+        <span class="material-symbols-outlined" id="botaoFechar" onclick="fecharMenu()">close</span>
+
+        <div><img src="imagens/logo-esteticar.png" alt="logo-esteticar" class="logo-header"></div>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+                <li><a href="serviços.html">SERVIÇOS</a></li>
+                <li><a href="promoçoes.html">PROMOÇÕES</a></li>
+                <li><a href="localizaçao.html">LOCALIZAÇÃO</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="titulo-e-p">
+            <h1>Quem Somos</h1>
+            <span>A EstetiCar é uma empresa de estética automotiva que oferece serviços de alta qualidade para seus
+                clientes. Nós somos especialistas em cuidar da beleza e do bem-estar dos carros, utilizando técnicas e
+                produtos de ponta para garantir o melhor resultado possível. Nosso objetivo é deixar cada veículo que
+                passa pelas nossas mãos com a aparência renovada e impecável.</span>
+        </section>
+
+        <section class="section-qmsomos-main">
+            <div class="carousel-class">
+                <div><img src="imagens/lavagem-motor2-tratada.jpg" alt="funcionario-verificando-motor"></div>
+                <div><img src="imagens/quem-somos.jpg" alt="funcionarios-foto"></div>
+                <div><img src="imagens/revitalizacao.jpg" alt="funcionario-revitalizando-lataria-do-carro"></div>
+            </div>
+            <p>Nossa equipe de profissionais altamente qualificados está sempre atualizada com as últimas tendências e
+                tecnologias do mercado, para oferecer um serviço de primeira linha. Na EstetiCar, a satisfação do
+                cliente é nossa prioridade, por isso, trabalhamos com dedicação e empenho para atender às necessidades
+                de cada um, superando suas expectativas. Se você busca um serviço de estética automotiva de qualidade,
+                venha conhecer a EstetiCar e deixe seu carro nas mãos de quem realmente entende do assunto.</p>
+        </section>
+    </main>
+
+    <footer>
+    
+        <div class="container-redes">
+            <ul>
+                <li><a href="https://web.whatsapp.com/"><img src="imagens/icons8-whatsapp.svg" alt="link-para-whatsapp" title="EstetiCar"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="imagens/icons8-instagram.svg" alt="link-para-instagram" title="@EstetiCar"></a></li>
+                <li><a href="https://pt-br.facebook.com/"><img src="imagens/icons8-facebook.svg" alt="link-para-facebook" title="EstetiCar"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="JAVASCRIPT/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-slider@1.8.2/slick/slick.min.js"></script>
+
+    <script>
+        $('.carousel-class').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: false,
+            arrows: false,
+        });
+    </script>
+
+</body>
+
+</html>
