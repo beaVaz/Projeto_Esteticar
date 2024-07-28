@@ -243,7 +243,7 @@ main iframe {
 footer {
     padding: 1.5rem 4rem;
     background-color: #121212;
-    position: static;
+    position: fixed;
     bottom: 0;
 }
 
