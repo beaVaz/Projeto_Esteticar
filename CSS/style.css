@@ -243,8 +243,9 @@ main iframe {
 footer {
     padding: 1.5rem 4rem;
     background-color: #121212;
-    position: fixed;
+    position: static;
     bottom: 0;
+    margin-bottom: 0;
 }
 
 .container-redes ul {
